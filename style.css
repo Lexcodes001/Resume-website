@@ -78,7 +78,7 @@ body{
 
    padding: 0;
 
-   font-family: 'Titan One', cursive;
+   font-family: 'Titan One';
 
    text-align: center;
 
@@ -88,7 +88,7 @@ body{
 
    color: #bbb;
 
-   font-family: 'Montserrat', 'sans-serif';
+   font-family: 'Montserrat';
 
    padding: 0;
 
@@ -110,7 +110,7 @@ body{
 
    margin: .1rem 1rem .3rem 1rem;
 
-   font-family: 'Montserrat', 'sans-serif';
+   font-family: 'Montserrat';
 
    text-align: center;
 
@@ -138,7 +138,7 @@ body{
 
    margin: auto;
 
-   font-family: 'Titan One', 'sans-serif';
+   font-family: 'Titan One';
 
    font-size: 3rem;
 
@@ -156,7 +156,7 @@ body{
 
    text-align: justify;
 
-   font-family: Montserrat, 'sans-serif';
+   font-family: Montserrat;
 
 }
 
@@ -178,7 +178,7 @@ button{
 
    font-weight: 900;
 
-   font-family: 'Montserrat', 'sans-serif';
+   font-family: 'Montserrat';
 
    border-radius: 1rem;
 
