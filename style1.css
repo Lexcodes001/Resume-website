@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@500&display=swap');
+
+*{
+
+   box-sizing: border-box;
+
+}
+
+body{
+
+   background-color: #f1f1f1;
+
+   font-family: 'Mulish', sans-serif;
+
+}
+
+hr{
+
+   background-color: #666;
+
+   width: 80%;
+
+   height: .004rem;
+
+   border: none;
+
+   border-radius: 1rem;
+
+}
+
+.cvDiv{
+
+   padding: 0;
+
+   margin: .7rem .5rem .7rem .5rem;
+
+   display: flex;
+
+   flex-direction: row;
+
+   width: auto;
+
+}
+
+.sideInfo{
+
+   width: 40%;
+
+   height: auto;
+
+   padding: .7rem;
+
+   display: flex;
+
+   flex-direction: column;
+
+   background-color: #023049;
+
+}
+
+.left{
+
+   color: #fefefe;
+
+}
+
+.mainInfo{
+
+   width: 60%;
+
+   height: auto;
+
+   padding: .7rem;
+
+   display: flex;
+
+   flex-direction: column;
+
+   background-color: #fefefe;
+
+}
+
+.right{
+
+   color: #000;
+
+}
+
+.idenSect{
+
+   display: flex;
+
+   flex-direction: column;
+
+   align-items: center;
+
+   text-align: center;
+
+}
+
+img{
+
+   width: 5rem;
+
+   height: 5rem;
+
+   border-radius: 50%;
+
+   padding: 0;
+
+   margin: 0;
+
+}
+
+.contactSect, .eduSect, .profileSect, .exprSect, .skillSect{
+
+   margin-bottom: 1rem;
+
+}
+
+.contactDiv{
+
+   line-height: 1rem;
+
+}
+
+.eduSect{
+
+   display: flex;
+
+   flex-direction: column;
+
+}
+
+.eduDiv{
+
+   line-height: .7rem;
+
+}
+
+.langSect{
+
+   display: flex;
+
+   flex-direction: column;
+
+   line-height: 1rem;
+
+}
+
+.exprRow{
+
+   display: flex;
+
+   flex-direction: row;
+
+   flex-wrap: nowrap;
+
+   padding-bottom: .8rem;
+
+}
+
+.exprRow1{
+
+   width: 100%;
+
+}
+
+.skillDiv{
+
+   display: flex;
+
+   flex-direction: row;
+
+   justify-content: space-between;
+
+   padding-bottom: .8rem;
+
+}
+
+.interestRow{
+
+   display: flex;
+
+   flex-direction: row;
+
+   justify-content: space-between;
+
+}
+
+.headerOne{
+
+   font-size: .6rem;
+
+   font-weight: 900;
+
+}
+
+.headerTwo{
+
+   font-size: .4rem;
+
+   font-weight: 900;
+
+}
+
+.headerThree{
+
+   font-size: .3rem;
+
+   font-weight: 100;
+
+}
+
+.normalText{
+
+   font-size: .009rem;
+
+}
+
+.smallTextLeft{
+
+   color: #30b6e4;
+
+   font-size: .0009rem;
+
+}
+
+.smallTextRight{
+
+   color: #000;
+
+   font-size: .0009rem;
+
+   padding-right: 3rem;
+
+   text-align: justify;
+
+   word-break: keep-all;
+
+}
+
+.lilBold{
+
+   font-weight: 600;
+
+}
+
+.bold{
+
+   font-weight: 900;
+
+}
+
+.fullWidthLeft{
+
+   width: 100%;
+
+   height: .1rem;
+
+   background-color: #000;
+
+}
+
+.progWidthLeft{
+
+   height: .1rem;
+
+   border-radius: 0 .5rem .5rem 0;
+
+   background-color: #30b6e4;
+
+}
+
+.fullWidthRight{
+
+   width: 60%;
+
+   height: .4rem;
+
+   margin-left: 1rem;
+
+   background-color: #f1f1f1;
+
+}
+
+.progWidthRight{
+
+   height: .4rem;
+
+   border-radius: 0 .5rem .5rem 0;
+
+   background-color: #30b6e4;
+
+}
+
+.material-icons{
+
+   font-size: .5rem;
+
+   color: #30b6e4;
+
+}
+
+.material-icons.iconLeft{
+
+   padding-right: .4rem;
+
+}
+
+.material-icons.iconRight{
+
+   padding-right: .3rem;
+
+}
+
+.iconAlign .material-icons{
+
+   vertical-align: middle;
+
+}
+
