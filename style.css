@@ -18,6 +18,20 @@ body{
 
 }
 
+.body{
+   
+   display: flex;
+   
+   flex-direction: column;
+   
+   justify-content: center;
+   
+   align-items: center;
+   
+   flex-wrap: nowrap;
+   
+}
+
 .blurry{
 
    background-color: rgba(255, 255, 255, .3);
@@ -104,17 +118,19 @@ body{
 
    font-weight: bold;
 
-   padding: .2rem;
+   padding: .2rem .3rem;
 
    margin: .1rem 1rem .3rem 1rem;
 
    font-family: 'Montserrat', sans-serif;
 
    text-align: center;
-
+   
    background-color: rgba(0, 0, 0, .4);
-
+   
    border-radius: .5rem;
+   
+   border-top: 2px solid #bbb;
 
 }
 
@@ -130,7 +146,7 @@ body{
 
    color: #eee;
 
-   text-align: left;
+   text-align: center;
 
    padding: 0 1rem;
 
@@ -144,7 +160,7 @@ body{
 
 }
 
-.afterIntro, #greeting2{
+.afterIntro{
 
    color: #bbb;
 
@@ -152,19 +168,52 @@ body{
 
    margin: auto;
 
-   text-align: justify;
+   text-align: center;
 
    font-family: Montserrat, sans-serif;
 
 }
 
-.cvBtnDiv{
+#greeting2{
+   
+   color: #bbb;
+   
+   padding: .2rem .2rem .1rem;
 
    margin: auto;
 
+   text-align: center;
+   
+   line-height: normal;
+
+   font-family: 'Courier New', Courier, monospace;
+   
+   font-size: .9rem;
+   
+   font-weight: 800;
+
+   background-color: rgba(0, 0, 0, .4);
+   
+   border-top: 1px solid #bbb;
+   
+   
 }
 
-button{
+#cvBtnDiv{
+   
+   display: flex;
+   
+   justify-content: center;
+   
+   align-items: center;
+   
+   margin-bottom: 1rem;
+
+}
+
+.button{
+   
+   text-align: center;
 
    color: #aaa;
 
@@ -182,13 +231,13 @@ button{
 
    padding: .5rem 2rem;
 
-   margin: 0  1rem 1rem;
-
    box-shadow: 0 .3rem #333;
+   
+   transition: background-image 1s ease-in-out .5s;
 
 }
 
-button:hover{
+.button:hover{
 
    background-image: linear-gradient(to left bottom, #102B56, #317079);
 
