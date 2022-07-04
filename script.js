@@ -93,11 +93,11 @@ switch (currentDay) {
 switch (currentDay) {
    case 0:
    case 6:
-      text = 'Happy Weekend!😁✌️';
+      text = 'Happy Weekend!😁';
       break;
       
    default:
-      text = 'Looking forward to the Weekend!😕🙏';
+      text = 'Looking forward to the Weekend!🙂';
 }
 
 document.getElementById('time').innerHTML = currentHour + ':' + currentMinute;
