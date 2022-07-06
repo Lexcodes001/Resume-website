@@ -1,14 +1,20 @@
 const currentDate = new Date();
 
-const currentHour = currentDate.getHours();
+const HH = currentDate.getHours() > 12 ? (currentDate.getHours() - 12) : currentDate.getHours;
 
-const currentMinute = currentDate.getMinutes();
+const MM = currentDate.getMinutes();
+
+const MD = currentDate.getDay();
+
+const currentHour = HH < 10 ? ('0' + HH) : HH;
+
+const currentMinute = MM < 10 ? ('0' + MM) : MM;
+
+const currentMonthDay = MD < 10 ? ('0' + MD) : MD;
 
 const currentDay = currentDate.getDay();
 
 const currentMonth = currentDate.getMonth();
-
-const currentMonthDay = currentDate.getDate();
 
 const currentYear = currentDate.getFullYear();
 
