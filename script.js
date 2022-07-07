@@ -1,10 +1,10 @@
 const currentDate = new Date();
 
-const HH = currentDate.getHours() > 12 ? (currentDate.getHours() - 12) : currentDate.getHours;
+const HH = currentDate.getHours() > 12 ? (currentDate.getHours() - 12) : currentDate.getHours();
 
 const MM = currentDate.getMinutes();
 
-const MD = currentDate.getDay();
+const MD = currentDate.getDate();
 
 const currentHour = HH < 10 ? ('0' + HH) : HH;
 
@@ -47,7 +47,7 @@ switch (currentDay) {
       day = 'SATURDAY';
 }
 
-switch (currentDay) {
+switch (currentMonth) {
    case 0:
       month = 'Jan';
       break;
