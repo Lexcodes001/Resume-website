@@ -11,6 +11,12 @@ body{
    background-color: #f1f1f1;
 
    font-family: 'Mulish', sans-serif;
+   
+   display: flex;
+   
+   justify-content: center;
+   
+   align-items: center;
 
 }
 
@@ -32,19 +38,21 @@ hr{
 
    padding: 0;
 
-   margin: .7rem .5rem .7rem .5rem;
+   margin: auto;
 
    display: flex;
 
    flex-direction: row;
+   
+   align-self: center;
 
    width: auto;
 
 }
 
 .sideInfo{
-
-   width: 40%;
+   
+   flex-basis: 200px;
 
    height: auto;
 
@@ -65,8 +73,8 @@ hr{
 }
 
 .mainInfo{
-
-   width: 60%;
+   
+   flex-basis: 300px;
 
    height: auto;
 
@@ -166,6 +174,11 @@ img{
 
 }
 
+.exprRow2{
+   
+   flex-basis: 15rem;
+}
+
 .skillDiv{
 
    display: flex;
@@ -173,6 +186,8 @@ img{
    flex-direction: row;
 
    justify-content: space-between;
+   
+   align-items: center;
 
    padding-bottom: .8rem;
 
@@ -252,6 +267,13 @@ img{
 
 }
 
+.justify{
+   
+   text-align: justify;
+   
+   text-justify: auto;
+}
+
 .fullWidthLeft{
 
    width: 100%;
@@ -320,3 +342,19 @@ img{
 
 }
 
+@media only screen and (min-width: 768px) {
+   
+   .cvDiv{
+      margin: 15rem;
+      height: 100%;
+   }
+   
+   .sideInfo{
+      flex-basis: 250px;
+   }
+   
+   .mainInfo{
+      flex-basis: 600px;
+   }
+   
+}
