@@ -119,8 +119,10 @@ body{
    width: auto;
 
    color: #bbb;
+   
+   font-size: .8rem;
 
-   font-weight: bold;
+   font-weight: 500;
 
    padding: .2rem .3rem;
 
@@ -134,7 +136,7 @@ body{
    
    border-radius: .5rem;
    
-   border-top: 2px solid #bbb;
+   border-top: 1px solid #bbb;
 
 }
 
@@ -194,9 +196,9 @@ body{
 
    font-family: 'Courier New', Courier, monospace;
    
-   font-size: .9rem;
+   font-size: .8rem;
    
-   font-weight: 600;
+   font-weight: 800;
 
    background-color: rgba(0, 0, 0, .4);
    
