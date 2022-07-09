@@ -348,7 +348,7 @@ img{
    
    .cvDiv{
       
-      margin: 8rem;
+      margin: 7rem;
       
       height: auto;
       
@@ -369,11 +369,15 @@ img{
    }
    
    .sideInfo{
-      flex-basis: 300px;
+      flex-basis: 350px;
    }
    
    .mainInfo{
-      flex-basis: 500px;
+      flex-basis: 600px;
+   }
+   
+   .smallTextLeft{
+      font-size: 1.5vw;
    }
    
 }
