@@ -73,8 +73,10 @@ body{
 .timeDisplay{
 
    display: flex;
+   
+   flex-direction: row;
 
-   align-items: center;
+   align-items: flex-end;
 
    justify-content: center;
 
@@ -86,7 +88,7 @@ body{
 
    font-size: 4.2rem;
 
-   margin: auto;
+   margin: 0;
 
    padding: 0;
 
@@ -96,15 +98,17 @@ body{
 
 }
 
-.secsDisplay{
+.meridianDisplay{
 
    color: #bbb;
+   
+   font-size: 1rem;
 
    font-family: 'Montserrat', sans-serif;
 
    padding: 0;
 
-   margin-right: 0;
+   margin-left: 0;
 
    margin-bottom: .5rem;
 
@@ -142,7 +146,7 @@ body{
 
 }
 
-.greeting1{
+.greetingTwo{
 
    color: #eee;
 
@@ -176,7 +180,7 @@ body{
 
 }
 
-#greeting2{
+#greetingOne{
    
    color: #bbb;
    
@@ -192,7 +196,7 @@ body{
    
    font-size: .9rem;
    
-   font-weight: 800;
+   font-weight: 600;
 
    background-color: rgba(0, 0, 0, .4);
    
@@ -261,7 +265,7 @@ button:active{
    
    .body{
       
-   margin-top: 30rem;
+   margin: auto;
    
    }
    
