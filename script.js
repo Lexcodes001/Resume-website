@@ -1,5 +1,19 @@
 const currentDate = new Date();
 
+if (currentDate.getHours() > 11) {
+      document.getElementById('meridian').innerHTML = 'PM';
+} else {
+      document.getElementById('meridian').innerHTML = 'AM';
+}
+
+if (currentDate.getHours() < 10) {
+   text1 = 'GOOD MORNING!🌄';
+} else if (currentDate.getHours() < 18) {
+   text1 = 'GOOD DAY!☀️';
+} else {
+   text1 = 'GOOD EVENING!🌃';
+}
+
 const HH = currentDate.getHours() > 12 ? (currentDate.getHours() - 12) : currentDate.getHours();
 
 const MM = currentDate.getMinutes();
@@ -99,15 +113,15 @@ switch (currentMonth) {
 switch (currentDay) {
    case 0:
    case 6:
-      text = 'Happy Weekend!😁';
+      text2 = 'ENJ😋Y the Weekend!';
       break;
       
    default:
-      text = 'Looking forward to the Weekend!🙂';
+      text2 = 'Looking forward to the Weekend!🙂';
 }
 
 document.getElementById('time').innerHTML = currentHour + ':' + currentMinute;
 
 document.getElementById('date').innerHTML= day + '&nbsp ' + month + ' ' + currentMonthDay + ', ' + currentYear;
 
-document.getElementById('greeting2').innerHTML = text;
+document.getElementById('greetingOne').innerHTML = text1 + '<br>' + text2;
