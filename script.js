@@ -7,11 +7,11 @@ if (currentDate.getHours() > 11) {
 }
 
 if (currentDate.getHours() < 10) {
-   text1 = 'GOOD MORNING!🌄';
+   text1 = 'Good Morning!';
 } else if (currentDate.getHours() < 18) {
-   text1 = 'GOOD DAY!☀️';
+   text1 = 'Good Day!';
 } else {
-   text1 = 'GOOD EVENING!🌃';
+   text1 = 'Good Evening!';
 }
 
 const HH = currentDate.getHours() > 12 ? (currentDate.getHours() - 12) : currentDate.getHours();
@@ -113,11 +113,11 @@ switch (currentMonth) {
 switch (currentDay) {
    case 0:
    case 6:
-      text2 = 'ENJ😋Y the Weekend!';
+      text2 = 'ENJOY the Weekend!';
       break;
       
    default:
-      text2 = 'Looking forward to the Weekend!🙂';
+      text2 = 'Looking forward to the Weekend!';
 }
 
 document.getElementById('time').innerHTML = currentHour + ':' + currentMinute;
